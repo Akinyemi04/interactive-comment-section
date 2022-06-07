@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import rick from './images/icon-plus.svg'
 import morty from './images/icon-minus.svg'
-import tin from './images/avatars/image-maxblagun.webp'
+import tin from './images/avatars/image-maxblagun.png'
 import rig from './images/icon-reply.svg'
-import lip from './images/avatars/image-juliusomo.webp'
-import corn from './images/avatars/image-ramsesmiron.webp'
+import lip from './images/avatars/image-juliusomo.png'
+import corn from './images/avatars/image-ramsesmiron.png'
 import Comment from './Comment'
 const SecondBody = (props) => {
     const fill=(props.data)

@@ -1,7 +1,7 @@
 import rick from './images/icon-plus.svg'
 import morty from './images/icon-minus.svg'
 import React,{useState} from 'react'
-import lip from './images/avatars/image-juliusomo.webp'
+import lip from './images/avatars/image-juliusomo.png'
 import edit from './images/icon-edit.svg'
 const Response = (props) => {
     const ride = props.val

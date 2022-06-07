@@ -1,4 +1,4 @@
-import flip from './images/avatars/image-juliusomo.webp'
+import flip from './images/avatars/image-juliusomo.png'
 const AddComent = (props) => {
     function Sub(){
         props.cull(true)

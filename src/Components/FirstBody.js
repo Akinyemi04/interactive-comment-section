@@ -3,7 +3,7 @@ import morty from './images/icon-minus.svg'
 import tin from './images/avatars/image-amyrobson.png'
 import rig from './images/icon-reply.svg'
 import React,{useState} from 'react'
-import lip from './images/avatars/image-juliusomo.webp'
+import lip from './images/avatars/image-juliusomo.png'
 import Comment from './Comment'
 const FirstBody = (props) => {
   const ride=(props.data)

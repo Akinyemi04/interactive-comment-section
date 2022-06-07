@@ -1,6 +1,6 @@
 import rick from './images/icon-plus.svg'
 import morty from './images/icon-minus.svg'
-import corn  from './images/avatars/image-juliusomo.webp'
+import corn  from './images/avatars/image-juliusomo.png'
 const Edit = (props) => {
     const hope= props.pin
     function Kit(e){
