@@ -19,7 +19,7 @@ const Edit = (props) => {
                     <p id='din'>juliusomo</p>
                     <p className='min'>2 hours ago</p>
                     <textarea id='pon' onChange={Kit}></textarea>
-                    <button style={{width:'2vh',marginLeft:'23vh'}} onClick='{Tip}' className='button src' ><span style={{paddingLeft:'9px'}}>Update</span></button>
+                    <button style={{width:'2vw',marginLeft:'23vw'}} onClick='{Tip}' className='button src' ><span style={{paddingLeft:'9px'}}>Update</span></button>
                 </aside> 
              </div>
     </div>

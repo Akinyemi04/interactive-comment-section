@@ -27,9 +27,9 @@ const Comment = (props) => {
     <>
       <div style={{display:fig}} className='alien fall' id='lil'>
         <article className='cool'>
-            <button className='tin' onClick={Click}><img src={up} alt=''  ></img></button>
+            <button className='tin' onClick={Click}><img style={{height:'2vh'}} id='long' src={up} alt=''  ></img></button>
             <p id='pin' style={{fontSize:'small', paddingLeft:'5px'}}>{hope}</p>
-            <button className='tin' onClick={Dip}><img src={down} alt=''></img></button>
+            <button className='tin' onClick={Dip}><img  id='long'src={down} alt=''></img></button>
         </article>
         <aside id='bail'>
           <img src={corn} alt ='' id='bay'></img>
@@ -37,8 +37,8 @@ const Comment = (props) => {
           <h6>you</h6>
           <p className='min'>{hour} Minutes ago</p>
           <div className='div'>
-            <button className='ton' onClick={Force}><img src={torn} alt =''></img><h5>Delete</h5></button>
-            <button className='ton'><img src={forn} alt=''></img><h5 style={{color:'hsl(238, 40%, 52%)'}}>Edit</h5></button>
+            <button className='ton' onClick={Force}><img  src={torn} alt =''></img><h5>Delete</h5></button>
+            <button className='ton'><img src={forn}  alt=''></img><h5 style={{color:'hsl(238, 40%, 52%)'}}>Edit</h5></button>
           </div>
           <blockquote id='pon'><em>{props.tip}</em> {props.data}</blockquote>
         </aside>

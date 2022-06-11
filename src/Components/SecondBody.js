@@ -59,15 +59,15 @@ const SecondBody = (props) => {
         <div id='like'>
             <div id='tim'>
                 <article className='edit'>
-                    <button className='button' onClick={King} value={one}><img src={rick} id='born' alt=''></img></button>
+                    <button className='button' onClick={King} value={one}><img style={{height:'2vh'}} src={rick} id='long' alt=''></img></button>
                     <h1 id='sip' >{one}</h1>
-                    <button className='button' onClick={Queen} value={one}><img style={{height:'1vh'}} src={morty} id='born' alt='' ></img></button>
+                    <button className='button' onClick={Queen} value={one}><img style={{height:'1vh'}} src={morty} id='long' className='might' alt='' ></img></button>
                 </article>
                 <aside className='side'>
                     <img src={tin} alt='' id='bay'></img>
                     <h2>{fill.user.username}</h2>
                     <p id ='till'> {fill.createdAt}</p>
-                    <button style={{width:'7vh'}} onClick={Cut} className='button src'><img src={rig} alt=''></img><span>reply</span></button>
+                    <button style={{width:'7vw'}} onClick={Cut} className='button src'><img src={rig} alt=''></img><span>reply</span></button>
                 </aside>
                 <blockquote id='con'>{fill.content}</blockquote>
             </div>
@@ -83,22 +83,22 @@ const SecondBody = (props) => {
         <>
             <div style={{display:'block'}} className='alien lil'>
                 <article className='cool'>
-                    <button className='tin' onClick={Pain}><img src={rick} alt=''  ></img></button>
+                    <button className='tin' onClick={Pain}><img  style={{height:'2vh'}} id='long' src={rick} alt=''  ></img></button>
                     <p style={{fontSize:'smaller',padding:'0 4px',paddingTop:'2px'}} id='pin'>{hope}</p>
-                    <button className='tin' onClick={Gain}><img src={morty} alt=''></img></button>
+                    <button className='tin' onClick={Gain}><img id='long' src={morty} alt=''></img></button>
                  </article>
                  <aside id='bail'>
                     <img src={corn} alt ='' id='bay'></img>
                     <p id='din'>{fill.replies[0].user.username}</p>
                     <p className='min'>{fill.replies[0].createdAt}</p>
                     <blockquote id='pon'><em>@{fill.replies[0].replyingTo}</em> {fill.replies[0].content}</blockquote>
-                    <button onClick={Tip} style={{width:'2vh',marginLeft:'23vh'}} className='button src' ><img src={rig} alt='' ></img><span style={{paddingLeft:'9px'}}>reply</span></button>
+                    <button onClick={Tip}  className='button dep' ><img src={rig} alt='' ></img><span style={{paddingLeft:'9px'}}>reply</span></button>
                 </aside> 
              </div>
              <article style={{display:kid,marginTop:'1vh'}} className='article rate' id='like'>
                 <img src={lip} id='img1' alt=''></img>
                 <textarea id='area' onChange={Convert}></textarea>
-                <button type='submit' id='bull' onClick={Sub}>Reply</button>
+                <button type='submit'  className='fulz' onClick={Sub}>Reply</button>
             </article> 
             {adam &&
             (top? <Comment data={adam} code={reel} />:'')
