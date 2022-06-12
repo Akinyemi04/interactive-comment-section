@@ -58,9 +58,9 @@ const FirstBody = (props) => {
         {
           rode &&
           <>
-            <Comment data={rode} tin={reel}/> 
+            <Comment data={rode} code={reel}/> 
           </>
-        }  
+        }
         
     </div>
   

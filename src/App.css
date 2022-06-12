@@ -82,7 +82,7 @@ h2{
     color:hsl(211, 10%, 45%) ;
 }
 .src{
-    margin-left:11vw;
+    margin-left:9vw;
 }
 span{
     margin-left:3px;
@@ -199,7 +199,7 @@ h6{
     margin-block-start: 0;
 
 }
-.div{
+.div, .coner{
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -314,6 +314,10 @@ em{
     color: white;
     
 }
+.pop{
+    margin-left: 1vw;
+    width: 5vw;
+}
 @media screen and (max-width:415px) {
     .rate{
         padding-left:0vh;
@@ -373,9 +377,11 @@ em{
     padding-left: 1px;
     }
     #area{
-        position: absolut;
-        left: vw;
-        width:65vw;
+        position: absolute;
+        left:0;
+        margin-top: 1vh;
+        margin-left: 2vh;
+        width:82vw;
         height: 10vh;
     }
     .tin{
@@ -385,7 +391,8 @@ em{
         width: 13vh;
     }
     #bull{
-        left: 75vw;
+        top: 13vh;
+        left: 74vw;
         padding: 1vh 2vw;
     }
     .alien{
@@ -396,7 +403,7 @@ em{
     }
     .fulz{
         left: 79vw;
-
+        top: 13vh;
     }
     .div{
         left:42vw;
@@ -410,12 +417,19 @@ em{
     }
     .min{
         width: 20vw;
-    }
+    }  
+    
     .fall{
         left:3vw;
     }
     #lil{
         left: 4vw;
+    }
+    #img1{
+        position: relative;
+        top: 11vh;
+        width: 25px;
+        height: 25px;
     }
     .dep{
         top: 21vh;
@@ -443,5 +457,18 @@ em{
         width: 4vw;
         height: 1vh;
     }
-    
+    .pop{
+        margin-left: 1vw;
+        width: 13vw;
+    }
+    .coner{
+        left: 42vw;
+        top: 23vh;
+    }
+    .ranger{
+        height: 27vh;
+    }
+    #tin{
+        margin-left: 7vw;
+    }
 }

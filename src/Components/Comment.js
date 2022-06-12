@@ -22,6 +22,7 @@ const Comment = (props) => {
     function Dip(){
       setHope(hope -1)
     }
+    console.log(props.data)
   
   return (
     <>
