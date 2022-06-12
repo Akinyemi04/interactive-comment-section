@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import up from './images/icon-plus.svg'
 import down from './images/icon-minus.svg'
-import corn  from './images/avatars/image-juliusomo.webp'
+import corn  from './images/avatars/image-juliusomo.png'
 import torn from './images/icon-delete.svg'
 import forn from './images/icon-edit.svg'
 import Delete from './Delete'
@@ -10,7 +10,7 @@ const Comment = (props) => {
     const[hope,setHope]=useState(0)
     const[big,setBig]=useState(false)
     const[fig,setFig]=useState(props.code)
-    
+    console.log(props.code)
     const d = new Date();
     let hour = d.getMinutes();
     function Force(){
@@ -22,7 +22,6 @@ const Comment = (props) => {
     function Dip(){
       setHope(hope -1)
     }
-    console.log(props.data)
   
   return (
     <>

@@ -59,7 +59,7 @@ const FirstBody = (props) => {
           rode &&
           <>
             <Comment data={rode} code={reel}/> 
-          </>
+          </> 
         }
         
     </div>
