@@ -58,6 +58,7 @@ h1{
     flex-direction: row;
 }
 .button{
+    cursor: pointer;
     border: none;
     display: inline-block;
     background-color:inherit;
@@ -122,6 +123,7 @@ span{
 }
 #bull{
     position: absolute;
+    cursor: pointer;
     top: 3vh;
     left:46vw;
     background-color:hsl(238, 40%, 52%) ;
@@ -200,6 +202,7 @@ h6{
 
 }
 .div, .coner{
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -219,6 +222,7 @@ h5{
     flex-direction:row;
     border: none;
     background-color: inherit;
+    cursor: pointer;
 }
 #pon{
     background-color:inherit;
@@ -274,9 +278,11 @@ h3{
 }
 #ass{
     padding-left:3vw;
+    
 }
 #tin{
     padding:1vh 1vw;
+    cursor: pointer;
     color: white;
     margin-left: 1vw;
     border-radius: 1vw;

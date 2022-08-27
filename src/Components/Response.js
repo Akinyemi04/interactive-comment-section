@@ -35,7 +35,7 @@ const Response = (props) => {
                     <h2>{ride.username}</h2>
                     <p id ='till'> {hour} Mins ago</p>
                     <div className='coner'>
-                        <button onClick={king} className='ton'><img src={flip} alt=' gamer'></img><h5>Delete</h5></button> 
+                        <button onClick={king} className='ton'><img src={flip} alt =' gamer'></img><h5>Delete</h5></button> 
                         <button  className='button pop'><img src={edit} alt='' ></img><h5 style={{color:'rgb(84, 87, 182)'}}>  Edit</h5></button>   
                     </div>
                 </aside>
